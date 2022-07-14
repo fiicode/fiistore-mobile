@@ -4,6 +4,11 @@ import './index.css';
 import App from './App';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import { isMobile } from 'react-device-detect';
+
+if(!isMobile) {
+  window.location.replace('https://fiistore.io/')
+}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
