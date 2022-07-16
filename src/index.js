@@ -6,7 +6,7 @@ import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import { isMobile } from 'react-device-detect';
 
-if(!isMobile) {
+if(!isMobile && process.env.NODE_ENV !== 'production') {
   window.location.replace('https://fiistore.io/')
 }
 
