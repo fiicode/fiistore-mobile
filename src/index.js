@@ -1,14 +1,17 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import './global.css';
+import './responsiveWeb.css';
+import './supportBrowsers.css'
 import App from './App';
+import ReactDOM from 'react-dom/client';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 import { isMobile } from 'react-device-detect';
 
-if(!isMobile && process.env.NODE_ENV !== 'production') {
+if(!isMobile && process.env.NODE_ENV === 'production') {
   window.location.replace('https://fiistore.io/')
 }
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
