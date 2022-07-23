@@ -1,17 +1,13 @@
 import React from 'react';
-// import './HeaderNavigation.css';
-import Dashboard from '../icons/dashboard.png';
+import UserIcon from '../icons/user.png'
 
 const HeaderNavigation = () => {
 
     return (
         <header className="default heade-sticky">
-            <a href="/">
-                {/* <div className="un-item-logo">
-                    <img className="logo-img light-mode" src={Dashboard} alt="" />
-                    <img className="logo-img dark-mode" src={Dashboard} alt="" />
-                </div> */}
-            </a>
+            <div className="un-title-page">
+                <h1><span style={{ color: 'var(--gray-300)' }}>fiistore</span><span className="color-purple size-15">.io</span></h1>
+            </div>
             <div className="un-block-right">
                 <div className="un-notification">
                     <a href="/" aria-label="activity">
@@ -23,7 +19,7 @@ const HeaderNavigation = () => {
                     <a href="/" aria-label="profile">
                         <picture>
                             {/* <source srcset="images/avatar/11.webp" type="image/webp" /> */}
-                            <img className="img-avatar" src={Dashboard} alt="" />
+                            <img className="img-avatar" src={UserIcon} alt="" />
                         </picture>
                     </a>
                 </div>
