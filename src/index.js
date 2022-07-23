@@ -1,7 +1,6 @@
 import React from 'react';
-import './global.css';
-import './responsiveWeb.css';
-import './supportBrowsers.css'
+import './style.css';
+import 'remixicon/fonts/remixicon.css';
 import App from './App';
 import ReactDOM from 'react-dom/client';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';

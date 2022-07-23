@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import './BottomNavigation.css';
+// import './BottomNavigation.css';
 
 const BottomNavigation = () => {
     const [page, setPage] = useState('home')

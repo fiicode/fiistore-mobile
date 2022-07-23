@@ -1,5 +1,5 @@
 import React from 'react';
-import './HeaderNavigation.css';
+// import './HeaderNavigation.css';
 import Dashboard from '../icons/dashboard.png';
 
 const HeaderNavigation = () => {

@@ -1,6 +1,6 @@
 import React from 'react';
-import './Other.css';
-import './Typography.css';
+// import './Other.css';
+// import './Typography.css';
 import User from '../icons/user.png'
 
 const Home = () => {
