@@ -120,16 +120,13 @@ body {
   background-color: var(--bs-body-bg);
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
 }
 
 body::-webkit-scrollbar {
-  background-color: #fff;
-  width: 0px;
-}
-
-body::-webkit-scrollbar-thumb {
-  background-color: #fff;
-  width: 0px;
+  display: none; /* for Chrome, Safari, and Opera */
 }
 
 hr {
