@@ -6,7 +6,7 @@ const HeaderNavigation = () => {
     return (
         <header className="default heade-sticky">
             <div className="un-title-page">
-                <h1><span style={{ color: 'var(--gray-300)' }}>fiistore</span><span className="color-purple size-15">.io</span></h1>
+                <h1><span style={{ color: 'var(--gray-300)' }}>fiistore</span><span className="color-orange size-15">.io</span></h1>
             </div>
             <div className="un-block-right">
                 <div className="un-notification">
